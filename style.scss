@@ -40,14 +40,15 @@ body{
 
 .login-header {
     margin-bottom: 50px;
-    h1{
-        font-size: 40px;
-        margin-bottom: 10px;
-    }
+}
 
-    p {
-        opacity: .7;
-    }
+h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+p {
+    opacity: .7;
 }
 
 .login-form {
@@ -66,23 +67,23 @@ body{
     display: flex;
     gap: 30px;
     margin-top: 70px;
+}
 
-    a {
-        flex: 6;
-        gap: 15px;
-        border: 1px solid black;
-        border-radius: 100px;
-        padding: .6rem;
-        justify-content: center;
-        display: flex;
-        align-items: center;
-        color: black;
-        text-decoration: none;
+a{
+    flex: 6;
+    gap: 15px;
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: .6rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
 
-        &:hover {
-            background-color: #eee;
-        }
-    }
+a:hover {
+    background-color: #eee;
 }
 
 
